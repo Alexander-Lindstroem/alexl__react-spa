@@ -1,0 +1,135 @@
+.characterProfileContainer {
+    font-family: var(--noto-sans);
+    display: flex;
+    flex-direction: column;
+}
+
+.characterProfile {
+    margin-top: 16px;
+    display: flex;
+}
+
+.attributeAndSpriteContainer {
+    display: flex;
+    align-items: center;
+}
+
+.spriteMobile {
+    margin-right: 12px;
+}
+
+.spriteDesktop {
+    display: none;
+}
+
+.spriteIMG {
+    width: 100%;
+    height: auto;
+}
+
+.attributeContainer {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(212,228,246,1) 20%, rgba(212,228,246,1) 80%, rgba(255,255,255,0) 100%);
+    border-top: solid 1px rgb(77, 77, 77);
+    border-bottom: solid 1px rgb(77, 77, 77);
+    padding: 24px 24px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 800;
+    text-shadow: -3px 0 3px white, 0 3px 3px white, 3px 0 3px white, 0 -3px 3px white;
+    padding-bottom: 8px; 
+    margin-bottom: 24px; 
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+.attributes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.attribute {
+    font-size: 0.9rem;
+}
+
+.attributeTitle {
+    color: white;
+    background-image: linear-gradient(90deg, rgba(0,148,222,1) 0%, rgba(17,43,121,1) 50%, rgba(0,2,34,1) 100%);
+    padding: 0 6px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    margin-right: 4px;
+    font-weight: 600;
+}
+
+.voiceActor {
+    margin: 16px 24px;
+    background-color: black;
+    color: white;
+    padding: 0 6px;
+    padding-bottom: 2px;
+    width: fit-content;
+    border-radius: 2px;
+}
+
+.description {
+    margin: 38px 24px 16px 24px;
+}
+
+.descriptionTitle {
+    text-transform: uppercase;
+    border-bottom: solid 1px black;
+    color: rgba(17,43,121,1);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.specialE {
+    color: white;
+    background-color: rgba(17,43,121,1);
+    border-radius: 2px;
+}
+
+.descriptionText {
+    font-size: 0.9rem;
+}
+
+.staffComment {
+    margin: 0 24px;
+}
+
+.staffCommentTitle {
+    text-shadow: -3px 0 3px white, 0 3px 3px white, 3px 0 3px white, 0 -3px 3px white;
+    color: rgba(17,43,121,1);
+    margin-bottom: -5px;
+    z-index: 100;
+    position: relative;
+}
+
+.staffCommentText {
+    border: 1px solid rgba(17,43,121,1);
+    border-radius: 2px;
+    z-index: 200;
+    position: relative;
+    background-color: white;
+    padding: 16px;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 768px) {
+    .information {
+        flex: 0 0 75%;
+    }
+    .spriteMobile {
+        display: none;
+    }
+    .spriteDesktop {
+        display: block;
+        flex: 0 0 25%;
+        margin-top: 12px;
+        margin-right: 24px;
+    }
+}

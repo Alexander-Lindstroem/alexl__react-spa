@@ -1,0 +1,13 @@
+.content {
+    margin-top: 68px;
+    min-height: 100%;
+    flex-grow: 1;
+    background: linear-gradient(150deg, rgba(255,255,255,1) 40%, rgba(217,231,240,1) 75%, rgba(179,190,222,1) 100%);
+
+}
+
+@media screen and (min-width: 768px) {
+    .content {
+        margin-top: 0;
+    }
+}

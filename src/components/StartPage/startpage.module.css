@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+.startPage {
+    background-image: url("../../assets/enter-screen.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.enterButton {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 32px;
+    font-family: Simonetta;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 8px 48px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translatex(-50%);
+    cursor: pointer;
+}
+
+.enterButton:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+@media screen and (min-width: 765px) {
+    .startPage {
+        background-size: auto;
+    }
+    
+    .enterButton {
+        top: 75%
+    }
+}

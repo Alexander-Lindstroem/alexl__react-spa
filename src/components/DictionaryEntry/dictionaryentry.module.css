@@ -1,0 +1,25 @@
+.dictionaryEntry {
+    margin: 24px;
+    font-family: var(--noto-serif);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: var(--noto-serif);
+    font-weight: 800;
+    border-top: rgba(17,43,121,1) solid 6px;
+    border-left: rgba(17,43,121,1) solid 2px;
+    width: fit-content;
+    padding-left: 4px;
+    max-width: 600px;
+}
+
+.text {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
