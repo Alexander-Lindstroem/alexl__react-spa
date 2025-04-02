@@ -55,7 +55,9 @@ export const pageCategories = [
             "mio", 
             "arihiko", 
             "arach", 
-            "gouto"]),
+            "gouto"
+        ]
+    ),
     new pageCategory("background art", ["1", "2"]),
     new pageCategory("seventh scripture", ["1", "2"]),
     new pageCategory("weapons & creatures", ["1", "2"]),
@@ -86,7 +88,9 @@ export const pageCategories = [
             "vampiric impulse",
             "marble phantasm",
             "event storage",
-            "luminary"]),
+            "luminary"
+        ]
+    ),
     new pageCategory("character lineup", ["1", "2"]),
 ]
 
